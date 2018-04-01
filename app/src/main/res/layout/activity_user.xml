@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NAME"
+        android:textSize="20sp"
+        android:id="@+id/tvUserName"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="USERNAME"
+        android:textSize="20sp"
+        android:id="@+id/tvUserUN"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="ADDRESS"
+        android:textSize="20sp"
+        android:id="@+id/tvUserAddress"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Street"
+            android:textSize="20sp"
+            android:id="@+id/tvUserAddressStreet"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:id="@+id/tvUserAddressSuite"
+            android:text="Suite"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <TextView
+            android:id="@+id/tvUserAddressCity"
+            android:text="City"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <TextView
+            android:text="ZipCode"
+            android:textSize="20sp"
+            android:id="@+id/tvUserAddressZipCode"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="GEO"
+        android:textSize="20sp"
+        android:id="@+id/tvUserAddressGeo"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tvUserAddressLat"
+            android:text="lat"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text=","/>
+        <TextView
+            android:id="@+id/tvUserAddressLan"
+            android:text="lan"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp" />
+
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="PHONE"
+        android:textSize="20sp"
+        android:id="@+id/tvUserPhone"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="35dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WEBSITE"
+        android:textSize="20sp"
+        android:id="@+id/tvUserWebsite"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="COMPANY"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_height="30dp" />
+
+    <TextView
+        android:id="@+id/tvUserEmail"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginLeft="6dp"
+        android:text="EMAIL"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tvUserCompanyName"
+        android:text="name"
+        android:textSize="20sp"
+        android:layout_marginLeft="25sp"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tvUserCompanyCatchPhrase"
+        android:text="catchPhrase"
+        android:layout_marginLeft="25sp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <TextView
+        android:id="@+id/tvUserCompanyBs"
+        android:text="bs"
+        android:layout_marginLeft="25sp"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="POSTS"
+            android:id="@+id/btUserPosts"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btUserTodos"
+            android:layout_marginLeft="40dp"
+            android:text="TODOS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

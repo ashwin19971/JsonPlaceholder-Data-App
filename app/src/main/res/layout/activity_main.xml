@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    android:orientation="vertical"
+    tools:context="com.example.ashwingiri.graph.Activity.MainActivity">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivPost"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/posts"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:contentDescription="TODO">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/ivAlbum"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center|bottom"
+            android:background="@drawable/albums"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+        </ImageView>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/ivTodo"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="50dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/todo"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+
+        </ImageView>
+        <ImageView
+            android:id="@+id/ivUser"
+            android:layout_marginRight="50dp"
+            android:layout_gravity="center|top"
+            android:background="@drawable/users"
+            android:layout_width="130dp"
+            android:layout_height="130dp">
+        </ImageView>
+
+    </LinearLayout>
+</LinearLayout>

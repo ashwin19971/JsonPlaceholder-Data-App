@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#fff"
+    android:layout_margin="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+        <CheckBox
+            android:layout_margin="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="30dp"
+            android:id="@+id/cbTodoCheckbox"
+            android:layout_height="30dp" />
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:text="TITLE"
+            android:id="@+id/tvTodoTitle"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+    </LinearLayout>
+    <TextView
+        android:textColor="#000"
+        android:text="UserId"
+        android:id="@+id/tvTodoUserId"
+        android:gravity="center|right"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+    <TextView
+        android:id="@+id/tvTodoId"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:layout_marginRight="10dp"
+        android:gravity="center|right"
+        android:text="id"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+</LinearLayout>
